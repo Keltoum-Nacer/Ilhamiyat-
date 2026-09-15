@@ -1504,7 +1504,7 @@ body.rtl .lightbox-next {
   .hero-story {
     flex-direction: column;
     gap: 40px;
-    padding: 40px 20px;
+    padding: 0;
   }
 
   .hero-content {
@@ -1512,9 +1512,9 @@ body.rtl .lightbox-next {
   }
 
   .hero-showcase {
-    max-width: 420px;
+    max-width: none;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .section {
