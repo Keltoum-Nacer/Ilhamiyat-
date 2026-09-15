@@ -81,27 +81,28 @@ const translations = {
     cat: {
       all: "All",
       art: "Art",
-      jewelry: "Jewelry",
+      memories: "Memories",
+      love: "Love",
       decor: "Home Decor",
+      accessories: "Accessories",
       wallart: "Wall Art",
       molds: "Molds",
       wedding: "Wedding",
-      birthday: "Birthday",
-      holiday: "Holiday",
+      friendship: "Friendship",
       featured: "Featured"
     }
   },
   ar: {
     nav: {
       home: "الرئيسية",
-      resin: "منتجات الراتنج",
+      resin: "منتجات الريزين",
       gypsum: "منتجات الجبس",
       gifts: "أفكار الهدايا",
       contact: "اتصل بنا"
     },
     hero: {
       title: "إلهاميات للإبداع",
-      subtitle: "إبداعات الراتنج والجبس المصنوعة يدوياً، مستوحاة من الخيال.",
+      subtitle: "إبداعات الريزين والجبس المصنوعة يدوياً، مستوحاة من الخيال.",
       tagline: "مصنوع بحب وإبداع",
       cta: "استكشف منتجاتنا",
       cta2: "اتصل بنا"
@@ -110,7 +111,7 @@ const translations = {
       featured: "منتجات مميزة",
       featuredDesc: "اكتشف أكثر إبداعاتنا المحبوبة",
       aboutTitle: "من نحن",
-      aboutText: "في إلهاميات للإبداع، نصنع قطعاً جميلة من الراتنج والجبس بحب وعناية. كل قطعة مصنوعة يدوياً وفريدة من نوعها ومصممة لإضافة الدفء إلى مساحتك.",
+      aboutText: "في إلهاميات للإبداع، نصنع قطعاً جميلة من الريزين والجبس بحب وعناية. كل قطعة مصنوعة يدوياً وفريدة من نوعها ومصممة لإضافة الدفء إلى مساحتك.",
       whyTitle: "لماذا تختارنا",
       why1: "جودة مصنوعة يدوياً",
       why1Desc: "كل قطعة مصنوعة بعناية باليد",
@@ -120,8 +121,8 @@ const translations = {
       why3Desc: "شحن سريع وموثوق حول العالم"
     },
     resin: {
-      title: "منتجات الراتنج",
-      desc: "قطع فنية جميلة من الراتنج — من المجوهرات إلى ديكور المنزل.",
+      title: "منتجات الريزين",
+      desc: "قطع فنية جميلة من الريزين — من المجوهرات إلى ديكور المنزل.",
       addToCart: "أضف إلى السلة"
     },
     gypsum: {
@@ -148,7 +149,7 @@ const translations = {
       hoursValue: "الاثنين - السبت: 9:00 - 18:00"
     },
     footer: {
-      tagline: "إبداعات الراتنج والجبس المصنوعة يدوياً.",
+      tagline: "إبداعات الريزين والجبس المصنوعة يدوياً.",
       quickLinks: "روابط سريعة",
       contactUs: "اتصل بنا",
       rights: "جميع الحقوق محفوظة.",
@@ -173,13 +174,14 @@ const translations = {
     cat: {
       all: "الكل",
       art: "فن",
-      jewelry: "مجوهرات",
+      memories: "ذكريات",
+      love: "حب",
       decor: "ديكور المنزل",
+      accessories: "إكسسوارات",
       wallart: "فن الجدران",
       molds: "قوالب",
       wedding: "زفاف",
-      birthday: "عيد ميلاد",
-      holiday: "مناسبات",
+      friendship: "صداقة",
       featured: "مميز"
     }
   },
@@ -265,13 +267,14 @@ const translations = {
     cat: {
       all: "Tout",
       art: "Art",
-      jewelry: "Bijoux",
+      memories: "Souvenirs",
+      love: "Amour",
       decor: "Décor",
+      accessories: "Accessoires",
       wallart: "Art mural",
       molds: "Moules",
       wedding: "Mariage",
-      birthday: "Anniversaire",
-      holiday: "Fêtes",
+      friendship: "Amitié",
       featured: "En vedette"
     }
   }
