@@ -1515,6 +1515,7 @@ body.rtl .lightbox-next {
     max-width: none;
     width: 100%;
     margin: 0;
+    aspect-ratio: 1 / 1;
   }
 
   .section {
@@ -1554,7 +1555,8 @@ body.rtl .lightbox-next {
   }
 
   .product-img {
-    height: 240px;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 
   .product-info {
