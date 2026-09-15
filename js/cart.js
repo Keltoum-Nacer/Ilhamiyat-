@@ -139,7 +139,7 @@ function closeCart() {
 }
 
 function getCurrentLang() {
-  return localStorage.getItem("ilhamiyat_lang") || "en";
+  return document.documentElement.lang || "en";
 }
 
 function showToast() {

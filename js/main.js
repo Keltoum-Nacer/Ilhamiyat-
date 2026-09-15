@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const savedLang = localStorage.getItem("ilhamiyat_lang") || "en";
-  applyLanguage(savedLang);
+  applyLanguage("en");
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -11,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.querySelectorAll(".lang-select").forEach((select) => {
-    select.value = savedLang;
+    select.value = "en";
     select.addEventListener("change", (e) => {
       const lang = e.target.value;
       localStorage.setItem("ilhamiyat_lang", lang);
