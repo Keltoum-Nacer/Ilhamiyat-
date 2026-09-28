@@ -22,6 +22,9 @@ function addToCart(product) {
     cart.push({ ...product, qty: 1 });
   }
   saveCart(cart);
+  if (typeof trackProductEvent === "function") {
+    trackProductEvent("AddToCart", { ...product, price: parseFloat(product.price) });
+  }
   showCart();
   showToast();
 }
@@ -130,6 +133,7 @@ function showCart() {
   document.getElementById("cart-panel")?.classList.add("open");
   document.querySelector(".cart-overlay")?.classList.add("show");
   document.body.classList.add("no-scroll");
+  if (typeof trackCartEvent === "function") trackCartEvent("ViewCart");
 }
 
 function closeCart() {

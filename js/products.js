@@ -178,6 +178,7 @@ function openModal(product) {
   const el = document.getElementById("product-modal");
   el.classList.add("open");
   document.body.classList.add("no-scroll");
+  if (typeof trackProductEvent === "function") trackProductEvent("ViewContent", product);
 }
 
 function closeModal() {

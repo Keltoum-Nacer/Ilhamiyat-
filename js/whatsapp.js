@@ -44,5 +44,6 @@ function formatWhatsAppMessage(cartItems, total, currency, lang) {
 function sendWhatsAppOrder(cartItems, total, currency, lang) {
   const message = formatWhatsAppMessage(cartItems, total, currency, lang);
   const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
+  if (typeof trackCartEvent === "function") trackCartEvent("InitiateCheckout");
   window.open(url, "_blank");
 }
