@@ -1,5 +1,4 @@
 const WHATSAPP_NUMBER = "212634458532";
-const WHATSAPP_DISPLAY = "+212 6 34 45 85 32";
 function formatNumber(n) {
   const [int, dec] = n.toFixed(2).split(".");
   return int.replace(/\B(?=(\d{3})+(?!\d))/g, " ") + "." + dec;
@@ -16,12 +15,10 @@ function toArabicDigits(str) {
 function formatWhatsAppMessage(cartItems, total, currency, lang) {
   const isAr = lang === "ar";
   const labels = {
-    head: isAr ? "طلب جديد" : lang === "fr" ? "NOUVELLE COMMANDE" : "NEW ORDER",
+    head: isAr ? "سلام إلهاميات، أريد أن أطلب:" : lang === "fr" ? "Salam Ilhamiyat, je souhaite commander :" : "Salam Ilhamiyat, I wanna order:",
     unit: isAr ? "سعر الوحدة" : lang === "fr" ? "Prix unitaire" : "Unit price",
     subtotal: isAr ? "المجموع الفرعي" : lang === "fr" ? "Sous-total" : "Subtotal",
-    total: isAr ? "المجموع" : "TOTAL",
-    to: isAr ? "تواصل معي على" : lang === "fr" ? "Contactez-moi sur" : "Reach me on",
-    thanks: isAr ? "شكراً لطلبك!" : lang === "fr" ? "Merci pour votre commande !" : "Thank you for your order!"
+    total: isAr ? "المجموع" : "TOTAL"
   };
 
   const num = (value) => (isAr ? toArabicDigits(formatNumber(value)) : formatNumber(value));
@@ -30,7 +27,7 @@ function formatWhatsAppMessage(cartItems, total, currency, lang) {
   const sep = isAr ? "──────────────" : "──────────────";
 
   const lines = [];
-  lines.push(`🛍️ *${labels.head}* 🛍️`, "");
+  lines.push(`*${labels.head}* 😊`, "");
 
   cartItems.forEach((item, i) => {
     lines.push(`${i + 1}. *${item.name}* × ${numInt(item.qty)}`);
@@ -40,7 +37,6 @@ function formatWhatsAppMessage(cartItems, total, currency, lang) {
   });
 
   lines.push("", sep, `💰 *${labels.total}: ${money(total)}*`, sep);
-  lines.push("", `📲 ${labels.to} ${WHATSAPP_DISPLAY}`, `🙏 ${labels.thanks}`);
 
   return encodeURIComponent(lines.join("\n"));
 }
