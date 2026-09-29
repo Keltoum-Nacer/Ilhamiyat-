@@ -51,6 +51,8 @@ function trackCartEvent(event) {
 }
 
 document.addEventListener("click", (e) => {
-  const link = e.target && e.target.closest ? e.target.closest('a[href*="wa.me"]') : null;
-  if (link) trackPixel("Contact", { content_name: "WhatsApp" });
+  const link = e.target && e.target.closest ? e.target.closest('a[href*="wa.me"], a[href*="ig.me"]') : null;
+  if (!link) return;
+  const channel = link.href.includes("ig.me") ? "Instagram" : "WhatsApp";
+  trackPixel("Contact", { content_name: channel });
 });
