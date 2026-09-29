@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "21278881324";
+const WHATSAPP_NUMBER = "212788881324";
 function formatNumber(n) {
   const [int, dec] = n.toFixed(2).split(".");
   return int.replace(/\B(?=(\d{3})+(?!\d))/g, " ") + "." + dec;
