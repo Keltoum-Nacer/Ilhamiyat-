@@ -18,7 +18,10 @@ const resinProducts = [
     gallery: [
       "images/resin/cadre-flowers/resin-14.jpeg",
       "images/resin/cadre-flowers/resin-15.jpeg",
-      "images/resin/cadre-flowers/IMG20260923142539_00.jpg"
+      "images/resin/cadre-flowers/IMG20260923142539_00.jpg",
+      "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10.jpeg",
+      "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10 (1).jpeg",
+      "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10 (2).jpeg"
     ],
     name: { en: "Preserved flower frame", ar: "إطار زهور محفوظة", fr: "Cadre de fleurs préservées" },
     desc: {
@@ -50,6 +53,19 @@ const resinProducts = [
       en: "A flowers trophy handcrafted in resin, a perfect gift for someone you love.",
       ar: "لوحة ورود مصنوعة يدوياً من الريزين، هدية مثالية لمن تحب.",
       fr: "Un trophée de fleurs fait main en résine, le cadeau parfait pour quelqu'un que vous aimez."
+    }
+  },
+  {
+    id: "resin-flowers-trophy-l", cat: "love", price: 300,
+    img: "images/resin/flowersTrophy-L/IMG20261013140031_00.jpg",
+    gallery: [
+      "images/resin/flowersTrophy-L/IMG20261013140544_00.jpg"
+    ],
+    name: { en: "Flowers Trophy — Large", ar: "لوحة الورود — كبيرة", fr: "Trophée de fleurs — Grand" },
+    desc: {
+      en: "A large flowers trophy handcrafted in resin, a perfect gift for someone you love. Available dimensions: 24 cm and 26 cm.",
+      ar: "لوحة ورود كبيرة مصنوعة يدوياً من الريزين، هدية مثالية لمن تحب. الأبعاد المتاحة: 24 سم و 26 سم.",
+      fr: "Un grand trophée de fleurs fait main en résine, le cadeau parfait pour quelqu'un que vous aimez. Dimensions disponibles : 24 cm et 26 cm."
     }
   },
   {
