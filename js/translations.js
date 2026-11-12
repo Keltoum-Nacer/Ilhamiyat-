@@ -76,7 +76,8 @@ const translations = {
       viewAll: "View All",
       learnMore: "Learn More",
       currency: "MAD",
-      addToCart: "Add to Cart"
+      addToCart: "Add to Cart",
+      shippingIncluded: "Shipping included"
     },
     cat: {
       all: "All",
@@ -169,7 +170,8 @@ const translations = {
       viewAll: "عرض الكل",
       learnMore: "اعرف المزيد",
       currency: "درهم",
-      addToCart: "أضف إلى السلة"
+      addToCart: "أضف إلى السلة",
+      shippingIncluded: "التوصيل مشمول"
     },
     cat: {
       all: "الكل",
@@ -262,7 +264,8 @@ const translations = {
       viewAll: "Voir tout",
       learnMore: "En savoir plus",
       currency: "MAD",
-      addToCart: "Ajouter au panier"
+      addToCart: "Ajouter au panier",
+      shippingIncluded: "Livraison incluse"
     },
     cat: {
       all: "Tout",

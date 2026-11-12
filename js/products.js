@@ -35,7 +35,7 @@ function productCardHTML(p, lang, ref) {
         ${photosBadge}
       </div>
       <div class="product-info">
-        <h3 data-action="view" data-id="${p.id}" data-ref="${ref}">${getProductName(p, lang)}</h3>
+        <h3 data-action="view" data-id="${p.id}" data-ref="${ref}">${getProductName(p, lang)}${p.shipping ? ` <span class="shipping-badge">${t.common.shippingIncluded}</span>` : ""}</h3>
         <span class="product-price">${t.common.currency} ${price}</span>
         <button class="add-to-cart" data-id="${p.id}" data-name="${getProductName(p, lang)}" data-price="${price}" data-img="${p.img}">
           ${t.common.addToCart}
@@ -133,7 +133,14 @@ function renderModal() {
   const price = typeof p.price === "number" ? p.price.toFixed(2) : p.price;
   const multi = modalImages.length > 1;
 
-  el.querySelector(".product-modal-title").textContent = name;
+  const titleEl = el.querySelector(".product-modal-title");
+  titleEl.textContent = name;
+  if (p.shipping) {
+    const badge = document.createElement("span");
+    badge.className = "shipping-badge";
+    badge.textContent = t.common.shippingIncluded;
+    titleEl.append(" ", badge);
+  }
   const description = productDescription(p, lang);
   const descEl = el.querySelector(".product-modal-desc");
   descEl.textContent = description;

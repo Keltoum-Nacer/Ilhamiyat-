@@ -42,7 +42,7 @@ const resinProducts = [
     }
   },
   {
-    id: "resin-flowers-trophy", cat: "love", price: 100,
+    id: "resin-flowers-trophy", cat: "love", price: 190, shipping: true,
     img: "images/resin/flowersTrophy-M/resin-05.jpeg",
     gallery: [
       "images/resin/flowersTrophy-M/resin-04.jpeg",
@@ -50,9 +50,9 @@ const resinProducts = [
     ],
     name: { en: "Flowers Trophy", ar: "لوحة الورود", fr: "Trophée de fleurs" },
     desc: {
-      en: "A flowers trophy handcrafted in resin, a perfect gift for someone you love.",
-      ar: "لوحة ورود مصنوعة يدوياً من الريزين، هدية مثالية لمن تحب.",
-      fr: "Un trophée de fleurs fait main en résine, le cadeau parfait pour quelqu'un que vous aimez."
+      en: "A flowers trophy handcrafted in resin, a perfect gift for someone you love. Delivery included (flower pickup and product delivery).",
+      ar: "لوحة ورود مصنوعة يدوياً من الريزين، هدية مثالية لمن تحب. التوصيل مشمول (جمع الزهور وتوصيل المنتج).",
+      fr: "Un trophée de fleurs fait main en résine, le cadeau parfait pour quelqu'un que vous aimez. Livraison incluse (ramassage des fleurs et livraison du produit)."
     }
   },
   {

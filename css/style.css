@@ -613,6 +613,26 @@ body.rtl .product-badge {
   right: 16px;
 }
 
+.shipping-badge {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  padding: 3px 10px;
+  border-radius: 50px;
+  background: #e6f4ea;
+  color: #2e7d32;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+body.rtl .shipping-badge {
+  margin-left: 0;
+  margin-right: 8px;
+}
+
 .product-photos {
   position: absolute;
   bottom: 14px;
