@@ -18,12 +18,23 @@ const resinProducts = [
     gallery: [
       "images/resin/cadre-flowers/resin-14.jpeg",
       "images/resin/cadre-flowers/resin-15.jpeg",
-      "images/resin/cadre-flowers/IMG20260923142539_00.jpg",
-      "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10.jpeg",
+      "images/resin/cadre-flowers/IMG20260923142539_00.jpg"
+    ],
+    name: { en: "Preserved flower frame", ar: "إطار زهور محفوظة", fr: "Cadre de fleurs préservées" },
+    desc: {
+      en: "A preserved flower frame in resin with a heart design, keeping a bloom from a special day on display. Available dimensions: 25 × 20 cm and 13 × 18 cm.",
+      ar: "إطار من الريزين لزهرة محفوظة بتصميم قلب، يحتفظ بزهرة من يوم مميز للعرض. الأبعاد المتاحة: 25 × 20 سم و 13 × 18 سم.",
+      fr: "Un cadre en résine pour fleur préservée avec un design cœur, garde une fleur d'un jour spécial bien visible. Dimensions disponibles : 25 × 20 cm et 13 × 18 cm."
+    }
+  },
+  {
+    id: "resin-cadre-2", cat: "memories", price: 450,
+    img: "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10.jpeg",
+    gallery: [
       "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10 (1).jpeg",
       "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10 (2).jpeg"
     ],
-    name: { en: "Preserved flower frame", ar: "إطار زهور محفوظة", fr: "Cadre de fleurs préservées" },
+    name: { en: "Preserved flower frame — Second style", ar: "إطار زهور محفوظة — طراز ثانٍ", fr: "Cadre de fleurs préservées — Second style" },
     desc: {
       en: "A preserved flower frame in resin, keeping a bloom from a special day on display. Available dimensions: 25 × 20 cm and 13 × 18 cm.",
       ar: "إطار من الريزين لزهرة محفوظة، يحتفظ بزهرة من يوم مميز للعرض. الأبعاد المتاحة: 25 × 20 سم و 13 × 18 سم.",
@@ -50,9 +61,9 @@ const resinProducts = [
     ],
     name: { en: "Flowers Trophy", ar: "لوحة الورود", fr: "Trophée de fleurs" },
     desc: {
-      en: "A flowers trophy handcrafted in resin, a perfect gift for someone you love. Delivery included (flower pickup and product delivery).",
-      ar: "لوحة ورود مصنوعة يدوياً من الريزين، هدية مثالية لمن تحب. التوصيل مشمول (جمع الزهور وتوصيل المنتج).",
-      fr: "Un trophée de fleurs fait main en résine, le cadeau parfait pour quelqu'un que vous aimez. Livraison incluse (ramassage des fleurs et livraison du produit)."
+      en: "A flowers trophy handcrafted in resin, a perfect gift for someone you love. Delivery included (flower pickup and product delivery), The price is 100 DH within Benguerir and 190 DH for delivery to other cities, with shipping included..",
+      ar: " لوحة ورود مصنوعة يدوياً من الريزين، هدية مثالية لمن تحب. التوصيل مشمول (جمع الزهور وتوصيل المنتج).السعر 100 درهم داخل مدينة ابن جرير، و190 درهماً للمدن الأخرى، مع احتساب مصاريف الشحن",
+      fr: "Un trophée de fleurs fait main en résine, le cadeau parfait pour quelqu'un que vous aimez. Livraison incluse (ramassage des fleurs et livraison du produit), Le prix est de 100 DH à Benguerir et de 190 DH pour les autres villes, frais d'expédition inclus."
     }
   },
   {
@@ -69,8 +80,13 @@ const resinProducts = [
     }
   },
   {
-    id: "resin-jewelry-ovale", cat: "accessories", price: 80,
-    img: "images/resin/jwelry-ovale/resin-12.jpeg",
+    id: "resin-jewelry-ovale", cat: "accessories", price: 90,
+    img: "images/resin/jwelry-ovale/Gemini_Generated_Image_nvj34onvj34onvj3.jpeg",
+    gallery: [
+      "images/resin/jwelry-ovale/resin-12.jpeg",
+      "images/resin/jwelry-ovale/IMG20260914133150_00 (1).jpg",
+      "images/resin/jwelry-ovale/IMG20260914133154_00.jpg"
+    ],
     name: { en: "Jewelry Holder — Oval", ar: "حامل مجوهرات — بيضوي", fr: "Porte-bijoux — Ovale" },
     desc: {
       en: "An oval resin jewelry holder for rings, earrings and other small treasures.",
