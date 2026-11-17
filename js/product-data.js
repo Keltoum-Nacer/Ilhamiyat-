@@ -68,9 +68,9 @@ const resinProducts = [
   },
   {
     id: "resin-flowers-trophy-l", cat: "love", price: 300,
-    img: "images/resin/flowersTrophy-L/IMG20261013140031_00.jpg",
+    img: "images/resin/flowersTrophy-L/IMG20261013140544_00.jpg",
     gallery: [
-      "images/resin/flowersTrophy-L/IMG20261013140544_00.jpg"
+      "images/resin/flowersTrophy-L/IMG20261013140031_00.jpg"
     ],
     name: { en: "Flowers Trophy — Large", ar: "لوحة الورود — كبيرة", fr: "Trophée de fleurs — Grand" },
     desc: {
