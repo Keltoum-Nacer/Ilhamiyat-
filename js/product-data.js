@@ -23,21 +23,21 @@ const resinProducts = [
     name: { en: "Preserved flower frame", ar: "إطار زهور محفوظة", fr: "Cadre de fleurs préservées" },
     desc: {
       en: "A preserved flower frame in resin with a heart design, keeping a bloom from a special day on display. Available dimensions: 25 × 20 cm and 13 × 18 cm.",
-      ar: "إطار من الريزين لزهرة محفوظة بتصميم قلب، يحتفظ بزهرة من يوم مميز للعرض. الأبعاد المتاحة: 25 × 20 سم و 13 × 18 سم.",
+      ar: "إطار من الريزين لزهرة محفوظة بتصميم قلب، يحتفظ بزهرة من يوم مميز للعرض. الأبعاد المتاحة: 27 × 22 سم و 13 × 18 سم.",
       fr: "Un cadre en résine pour fleur préservée avec un design cœur, garde une fleur d'un jour spécial bien visible. Dimensions disponibles : 25 × 20 cm et 13 × 18 cm."
     }
   },
   {
     id: "resin-cadre-2", cat: "memories", price: 450,
-    img: "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10.jpeg",
+    img: "images/resin/cadre-flowerss/a.jpeg",
     gallery: [
-      "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10 (1).jpeg",
-      "images/resin/cadre-flowerss/WhatsApp Image 2026-11-11 at 13.43.10 (2).jpeg"
+      "images/resin/cadre-flowerss/b.jpeg",
+      "images/resin/cadre-flowerss/c.jpeg"
     ],
     name: { en: "Preserved flower frame — Second style", ar: "إطار زهور محفوظة — طراز ثانٍ", fr: "Cadre de fleurs préservées — Second style" },
     desc: {
       en: "A preserved flower frame in resin, keeping a bloom from a special day on display. Available dimensions: 25 × 20 cm and 13 × 18 cm.",
-      ar: "إطار من الريزين لزهرة محفوظة، يحتفظ بزهرة من يوم مميز للعرض. الأبعاد المتاحة: 25 × 20 سم و 13 × 18 سم.",
+      ar: "إطار من الريزين لزهرة محفوظة، يحتفظ بزهرة من يوم مميز للعرض. الأبعاد المتاحة: 27 × 22 سم و 13 × 18 سم.",
       fr: "Un cadre en résine pour fleur préservée, garde une fleur d'un jour spécial bien visible. Dimensions disponibles : 25 × 20 cm et 13 × 18 cm."
     }
   },
